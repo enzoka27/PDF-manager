@@ -23,7 +23,6 @@ def main():
         try:
             pdf_index = int(input('Which PDF do you want to open? '))
             open_pdf(path, pdf_index)
-            break
         except ValueError:
             print('Type a valid number!')
 
